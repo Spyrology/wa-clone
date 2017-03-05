@@ -18,7 +18,7 @@
   "engines": {
     "node": "6.10.0",
     "npm": "4.0.3"
-    },
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -27,7 +27,9 @@
   "homepage": "https://github.com/Spyrology/wa-clone#readme",
   "dependencies": {
     "babel-cli": "^6.23.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.23.0"
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.23.0",
+    "express": "^4.15.0",
+    "redis": "^2.6.5"
   },
   "devDependencies": {
     "eslint": "^3.17.0",
