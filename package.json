@@ -1,0 +1,37 @@
+{
+  "name": "wa-clone",
+  "version": "1.0.0",
+  "description": "Repo for project-based class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -Rf dist && babel src -d dist",
+    "babel-node": "babel-node",
+    "nodemon": "nodemon --exec npm run babel-node",
+    "eslint": "eslint",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spyrology/wa-clone.git"
+  },
+  "engines": {
+    "node": "6.10.0",
+    "npm": "4.0.3"
+    },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spyrology/wa-clone/issues"
+  },
+  "homepage": "https://github.com/Spyrology/wa-clone#readme",
+  "dependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.23.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.0",
+    "eslint-plugin-react": "^6.10.0",
+    "nodemon": "^1.11.0"
+  }
+}
